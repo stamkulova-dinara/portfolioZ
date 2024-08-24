@@ -1,7 +1,7 @@
 "use client";
 import { soundState } from "@/atoms/SoundAtom";
 import { Icon } from "@iconify/react";
-import { getAnalytics, logEvent } from "firebase/analytics";
+// import { getAnalytics, logEvent } from "firebase/analytics";
 import { motion } from "framer-motion";
 import React from "react";
 import { Link } from "react-scroll";
@@ -35,7 +35,7 @@ const Footer: React.FC<FooterProps> = () => {
             if (SoundActive) {
               playClick();
             }
-            logEvent(getAnalytics(), `Scroll Footer`);
+            // logEvent(getAnalytics(), `Scroll Footer`);
           }}
           to="hero"
           href="hero"
@@ -59,7 +59,7 @@ const Footer: React.FC<FooterProps> = () => {
       </div>
       <div className={`${styles.footer_textContainer}`}>
         <Icon icon={"uiw:copyright"} />
-        <p>2023-present Muhammad Jaafar. All Rights Reserved</p>
+        <p>All Rights Reserved</p>
       </div>
     </div>
   );

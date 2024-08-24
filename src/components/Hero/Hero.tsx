@@ -2,7 +2,7 @@
 import { soundState } from "@/atoms/SoundAtom";
 import { heroData } from "@/db/main";
 import { Icon } from "@iconify/react";
-import { getAnalytics, logEvent } from "firebase/analytics";
+// import { getAnalytics, logEvent } from "firebase/analytics";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import React from "react";
@@ -213,7 +213,7 @@ const Hero: React.FC<HeroProps> = () => {
               if (SoundActive) {
                 playClick();
               }
-              logEvent(getAnalytics(), `Resume hero`);
+              // logEvent(getAnalytics(), `Resume hero`);
             }}
           >
             {heroData.btnText}
@@ -250,7 +250,7 @@ const Hero: React.FC<HeroProps> = () => {
             <Image
               className={`${styles.hero_right_container_imgContainer_image}`}
               src={heroData.img}
-              alt={"Muhammad's image"}
+              alt={"Nurzada's image"}
               priority
             />
           </motion.div>
@@ -271,7 +271,7 @@ const Hero: React.FC<HeroProps> = () => {
             if (SoundActive) {
               playClick();
             }
-            logEvent(getAnalytics(), `Scroll Hero`);
+            // logEvent(getAnalytics(), `Scroll Hero`);
           }}
           to="about"
           smooth={true}

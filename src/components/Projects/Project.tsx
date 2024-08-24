@@ -1,8 +1,8 @@
 "use client";
 import { soundState } from "@/atoms/SoundAtom";
-import { analytics } from "@/firebase/config";
+// import { analytics } from "@/firebase/config";
 import { Icon } from "@iconify/react";
-import { getAnalytics, logEvent } from "firebase/analytics";
+// import { getAnalytics, logEvent } from "firebase/analytics";
 import { motion } from "framer-motion";
 import Image, { StaticImageData } from "next/image";
 import React from "react";
@@ -86,7 +86,7 @@ const Project: React.FC<ProjectProps> = ({ data, index }) => {
                 if (SoundActive) {
                   playClick();
                 }
-                logEvent(getAnalytics(), `${data.name} Live`);
+                // logEvent(getAnalytics(), `${data.name} Live`);
               }}
               onHoverStart={() => {
                 if (SoundActive) {
@@ -111,7 +111,7 @@ const Project: React.FC<ProjectProps> = ({ data, index }) => {
                 if (SoundActive) {
                   playClick();
                 }
-                logEvent(getAnalytics(), `${data.name} Code`);
+                // logEvent(getAnalytics(), `${data.name} Code`);
               }}
               onHoverStart={() => {
                 if (SoundActive) {

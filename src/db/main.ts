@@ -1,19 +1,16 @@
-import qaroraImg from "../../public/images/qarora.png";
-import bookieImg from "../../public/images/bookie.png";
-import myImage from "../../public/images/muhammad.png";
-import mutahItImg from "../../public/images/mutah-it.png";
-import randQuoteImg from "../../public/images/randquote.png";
-import redditCloneImg from "../../public/images/reddit-clone.png";
-import theDojoImg from "../../public/images/the-dojo.png";
-import shawerrImg from "../../public/images/shawerr.png";
+import mathGameImg from "../../public/images/math-game.jpg";
+import myImage from "../../public/images/nurzada.jpeg";
+import countriesImg from "../../public/images/countries.jpg";
+import happyImg from "../../public/images/happy.png";
+import seoflowImg from "../../public/images/seoflow.png"
 
 export const heroData = {
   img: myImage,
   hi: "Hello! I am",
-  name: "Muhammad Jaafar",
-  expertise: ["Front-End Developer", "UI/UX Designer"],
+  name: "Zada Baktybek",
+  expertise: ["Front-End", "React Developer"],
   about:
-    "I'm a passionate junior Front-End Developer based in Jordan, currently studying Software Engineering with a strong interest in UI/UX design. I'm committed to creating visually stunning and user-friendly websites, and I'm looking forward to exploring new opportunities to enhance my skills.",
+    "I'm a passionate junior Front-End Developer. I'm committed to creating visually stunning and user-friendly websites, and I'm looking forward to exploring new opportunities to enhance my skills.",
   btnText: "Get my resume",
 };
 
@@ -22,11 +19,11 @@ export const aboutData = {
   cards: [
     {
       title: "Past",
-      text: "I discovered my passion for programming when I was just 14 years old. At first, it was just a hobby, but I quickly became interested in web development and the creative possibilities it offered. Over the years, I continued to develop my skills and fell more in love with building websites.",
+      text: "I discovered my passion for programming when I was just 17 years old. At first, it was just a hobby, but I quickly became interested in web development and the creative possibilities it offered. Over the years, I continued to develop my skills and fell more in love with building websites.",
     },
     {
       title: "Present",
-      text: "Now, as a software engineering student at Mutah University, I am pursuing my dream of becoming a professional programmer. I also work as a freelance web developer, which has allowed me to apply my skills in real-world projects and gain practical experience.",
+      text: "Now, as a Frontend Developer, I am pursuing my dream of becoming a professional programmer. I also work as a freelance web developer, which has allowed me to apply my skills in real-world projects and gain practical experience.",
     },
     {
       title: "Future",
@@ -47,10 +44,6 @@ export const SkillsData = {
         "React",
         "Next",
         "Redux",
-        "Astro",
-        "Recoil",
-        "GraphQL",
-        "Apollo",
         "Firebase",
       ],
     },
@@ -70,12 +63,7 @@ export const SkillsData = {
       title: "Miscellaneous",
       skills: [
         "Git",
-        "Jest",
-        "Cypress",
-        "Playwright",
-        "react-testing-library",
         "Webpack",
-        "UI/UX design processes",
         "REST APIs",
       ],
     },
@@ -101,15 +89,15 @@ export const contactData = {
   links: [
     {
       label: "Email",
-      url: "mailto:muhammadaldawahreh@gmail.com",
+      url: "mailto:zadabaktybek07@gmail.com",
     },
     {
       label: "GitHub",
-      url: "https://github.com/MuhammadJaafer",
+      url: "https://github.com/Zada0101",
     },
     {
       label: "LinkedIn",
-      url: "https://www.linkedin.com/in/muhammad-dawahreh/",
+      url: "https://www.linkedin.com/in/zada-baktybek/",
     },
     {
       label: "Resume",
@@ -122,97 +110,59 @@ export const ProjectsData = {
   title: "Projects",
   Projects: [
     {
-      name: "Shawerr",
-      image: shawerrImg,
+      name: "Math Game",
+      image: mathGameImg,
       technologies: [
-        "TypeScript",
-        "SvelteKit",
-        "Svelte",
-        "TailwindCss",
-        "Firebase",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Webpack",
       ],
       description:
-        "Comprehensive consultant for rebuilding and establishing new products, safety inspection, and product evaluation.",
-      demoUrl: "https://shawerr.com",
+        "Math Game - online that practice math skills using fun interactive content.",
+      demoUrl: "https://polite-griffin-e2d32a.netlify.app/",
       codeUrl: "",
     },
     {
-      name: "Qarora",
-      image: qaroraImg,
+      name: "SEOFlow",
+      image: seoflowImg,
       technologies: [
-        "TypeScript",
-        "Next",
-        "React",
-        "TailwindCss",
-        "Firebase",
-        "React Hook Form",
-        "Zod",
+        "HTML",
+        "CSS",
+        "JavaScript",
       ],
       description:
-        "Qarora is a groundbreaking platform redefining water bottle orders in Jordan. With categorized stations, detailed pages, and an admin panel for easy management, Qarora ensures a seamless experience.",
-      demoUrl: "https://qwater-jo.com",
+        "This responsive, single-page website.",
+      demoUrl: "https://zada0101.github.io/SEOFlow/",
       codeUrl: "",
     },
     {
-      name: "Bookie",
-      image: bookieImg,
+      name: "H(app)y",
+      image: happyImg,
       technologies: [
-        "TypeScript",
-        "React",
-        "Next",
-        "Redux",
-        "Module SCSS",
-        "Firebase",
-        "Sanity",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Webpack",
       ],
       description:
-        "Bookie is a modern e-commerce platform designed exclusively for book lovers. It offers a diverse collection of books across various genres, creating an immersive online bookstore experience. With its sleek and contemporary design, Bookie provides a visually appealing platform for browsing and discovering captivating titles.",
-      demoUrl: "https://bookie-store.vercel.app/",
-      codeUrl: "https://github.com/MuhammadJaafer/bookie",
-    },
-    {
-      name: "Reddit Clone",
-      image: redditCloneImg,
-      technologies: [
-        "TypeScript",
-        "React",
-        "Next",
-        "Recoil",
-        "Styled-Components",
-        "Firebase",
-      ],
-      description:
-        "A fully functional Reddit clone built with the latest technology in the web development field, allowing users to create communities, as well as create, post, and upvote content, comment on and vote on other users' content.",
-      demoUrl: "https://m7-reddit-clone.vercel.app/",
-      codeUrl: "https://github.com/MuhammadJaafer/reddit-clone",
-    },
-    {
-      name: "Mutah IT",
-      technologies: ["JavaScript", "React", "Styled-Components", "Firebase"],
-      image: mutahItImg,
-      description:
-        "A one-stop destination for IT students at Mutah University, the platform provides a wealth of resources, including course explanations, study plans, and trial exams specifically designed for all IT majors at Mutah University.",
-
-      demoUrl: "https://mutah-it.com/",
+        "",
+      demoUrl: "https://happy-application.netlify.app/",
       codeUrl: "",
     },
     {
-      name: "The Dojo",
-      image: theDojoImg,
-      technologies: ["React", "CSS Module", "Firebase"],
+      name: "Countries",
+      image: countriesImg,
+      technologies: [
+        "TypeScript",
+        "CSS",
+        "React",
+        "Apollo"
+      ],
       description:
-        "The Dojo is a project management website that offers a plethora of useful features, including tools for assigning tasks and real-time communication with team members. It also incorporates a custom-made authentication system to ensure secure access and user management.",
-      demoUrl: "https://the-dojo-app.netlify.app/",
-      codeUrl: "https://github.com/MuhammadJaafer/the-dojo",
-    },
-    {
-      name: "RandQuote",
-      image: randQuoteImg,
-      technologies: ["Javascript", "REST APIs", "OOP"],
-      description:
-        "RandQuote is a website that showcases random quotes, offering features such as copying the quote or saving it as an image. It also provides translation between Arabic and English. All of these features have been implemented using vanilla JavaScript and an object-oriented programming (OOP) architecture.",
-      demoUrl: "https://randquotee.netlify.app/",
-      codeUrl: "https://github.com/MuhammadJaafer/randQuote",
+        "",
+      demoUrl: "https://gentle-dodol-2c4f7c.netlify.app/",
+      codeUrl: "",
     },
   ],
 };

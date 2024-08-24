@@ -1,7 +1,6 @@
 "use client";
 import { soundState } from "@/atoms/SoundAtom";
 import { Icon } from "@iconify/react";
-import { getAnalytics, logEvent } from "firebase/analytics";
 import { motion } from "framer-motion";
 import React from "react";
 import { useRecoilValue } from "recoil";
@@ -63,14 +62,14 @@ const Links: React.FC<LinksProps> = () => {
       <motion.a
         variants={childVariants}
         className={`${styles.links_link}`}
-        href="mailto:muhammadaldawahreh@gmail.com"
+        href="mailto:zadabaktybek07@gmail.com"
         target="_blank"
         aria-label="email"
         onClick={() => {
           if (SoundActive) {
             playClick();
           }
-          logEvent(getAnalytics(), `Email Side Links`);
+          // logEvent(getAnalytics(), `Email Side Links`);
         }}
       >
         <Icon className={`${styles.links_link_icon}`} icon={"mi:email"} />
@@ -78,14 +77,14 @@ const Links: React.FC<LinksProps> = () => {
       <motion.a
         variants={childVariants}
         className={`${styles.links_link}`}
-        href="https://www.linkedin.com/in/muhammad-dawahreh/"
+        href="https://www.linkedin.com/in/zada-baktybek/"
         target="_blank"
         aria-label="linkedin"
         onClick={() => {
           if (SoundActive) {
             playClick();
           }
-          logEvent(getAnalytics(), `LinkedIn Side Links`);
+          // logEvent(getAnalytics(), `LinkedIn Side Links`);
         }}
       >
         <Icon className={`${styles.links_link_icon}`} icon={"mdi:linkedin"} />
@@ -93,14 +92,14 @@ const Links: React.FC<LinksProps> = () => {
       <motion.a
         variants={childVariants}
         className={`${styles.links_link}`}
-        href="https://github.com/MuhammadJaafer"
+        href="https://github.com/Zada0101"
         target="_blank"
         aria-label="github"
         onClick={() => {
           if (SoundActive) {
             playClick();
           }
-          logEvent(getAnalytics(), `Github Side Links`);
+          // logEvent(getAnalytics(), `Github Side Links`);
         }}
       >
         <Icon className={`${styles.links_link_icon}`} icon={"mdi:github"} />
