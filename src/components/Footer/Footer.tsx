@@ -58,8 +58,8 @@ const Footer: React.FC<FooterProps> = () => {
         </Link>
       </div>
       <div className={`${styles.footer_textContainer}`}>
-        <Icon icon={"uiw:copyright"} />
-        <p>All Rights Reserved</p>
+        {/* <Icon icon={"uiw:copyright"} /> */}
+        {/* <p>All Rights Reserved</p> */}
       </div>
     </div>
   );

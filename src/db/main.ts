@@ -10,7 +10,7 @@ export const heroData = {
   name: "Zada Baktybek",
   expertise: ["Front-End", "React Developer"],
   about:
-    "I'm a passionate junior Front-End Developer. I'm committed to creating visually stunning and user-friendly websites, and I'm looking forward to exploring new opportunities to enhance my skills.",
+    "As a Front-End Developer, I am committed to creating visually stunning and user-friendly websites. I look forward to exploring new opportunities to enhance my skills.",
   btnText: "Get my resume",
 };
 
@@ -124,19 +124,6 @@ export const ProjectsData = {
       codeUrl: "",
     },
     {
-      name: "SEOFlow",
-      image: seoflowImg,
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-      ],
-      description:
-        "This responsive, single-page website.",
-      demoUrl: "https://zada0101.github.io/SEOFlow/",
-      codeUrl: "",
-    },
-    {
       name: "H(app)y",
       image: happyImg,
       technologies: [
@@ -162,6 +149,19 @@ export const ProjectsData = {
       description:
         "",
       demoUrl: "https://gentle-dodol-2c4f7c.netlify.app/",
+      codeUrl: "",
+    },
+    {
+      name: "SEOFlow",
+      image: seoflowImg,
+      technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+      ],
+      description:
+        "This responsive, single-page website.",
+      demoUrl: "https://zada0101.github.io/SEOFlow/",
       codeUrl: "",
     },
   ],
