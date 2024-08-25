@@ -1,5 +1,6 @@
 [build]
   command = "pnpm build"
-  publish = ".next/server/app"
+  publish = ".next"
+
 [build.environment]
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
